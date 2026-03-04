@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+spark_env/
+
+# Spark outputs
+*.crc
+_SUCCESS
+derby.log
+metastore_db/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data — too large for git
+data/
+output/
+*.csv
+*.parquet
+*.xlsx
+
+# OS
+.DS_Store
+Thumbs.db
